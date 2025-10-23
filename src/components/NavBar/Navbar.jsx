@@ -37,7 +37,7 @@ const Navbar = () => {
     { name: "EXECOMS", path: "/execoms", width: "100px" },
     { name: "SOCIETIES", path: "/societies", width: "100px" },
     { name: "AFFINITIES", path: "/affinities", width: "110px" },
-    { name: "MEMBERSHIP", path: "/membership", width: "140px" },
+    { name: "MEMBERSHIP", path: "/membership", width: "135px" },
   ];
   // Get active link index and width
   // Find active link index and check if it exists

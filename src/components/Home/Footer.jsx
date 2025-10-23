@@ -8,7 +8,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="bg-[#181818] text-white py-10">
+    <footer className="bg-[#181818] py-10">
       <div className="max-w-[85rem] mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Section 1 */}
         <div>

@@ -76,7 +76,7 @@ const CommitteePage = () => {
       <ParticleBackground />
       <div className="flex-1 py-6 sm:py-8 px-3 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <PageHeader />
+          <PageHeader title="Committees"/>
           
           {committees.map((committee) => (
             <div key={committee.name} className="mb-12 committee-section">
