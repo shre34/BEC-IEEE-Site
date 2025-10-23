@@ -74,9 +74,14 @@ const CommitteePage = () => {
       className="relative min-h-screen flex flex-col bg-black text-gray-200"
     >
       <ParticleBackground />
-      <div className="flex-1 py-6 sm:py-8 px-3 sm:px-6 lg:px-8">
+      <div className="flex-1 pt-6 sm:pt-8 lg:pt-40 pb-6 sm:pb-8 px-3 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <PageHeader title="Committees"/>
+          <div className="relative h-full flex flex-col items-center justify-center text-white px-4 text-center z-10 mb-8">
+            <div className="relative" style={{ opacity: 1, transform: 'none' }}>
+              <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-[rgb(52,4,91)] via-[rgb(52,4,91)] to-black opacity-75 blur-xl"></div>
+              <h1 className="relative text-3xl md:text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-100">Core Committee</h1>
+            </div>
+          </div>
           
           {committees.map((committee) => (
             <div key={committee.name} className="mb-12 committee-section">
