@@ -5,7 +5,7 @@ import RAS from "./assets/RAS.png";
 import AESS from "./assets/AESS.png";
 import ComSoc from "./assets/ComSoc.png";
 import CIS from "./assets/CIS.png"
-import SIGHT from "./assets/Sight.png"
+import SIGHT from "./assets/sight123.png"
 import VTS from "./assets/VTS.png"
 import CASS from "./assets/CASS.png"
 import PELS from "./assets/PELS.png"

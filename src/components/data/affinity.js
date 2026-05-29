@@ -5,7 +5,7 @@ import Gouri from "../assets/Gouri_K.jpg"
 import Anusha from "../assets/Anusha_k.jpg"
 import Aarati from "../assets/Aarati_S.jpg"
 import Madhu from "../assets/Madhu_H.jpg"
-import Sight from "../assets/Sight.png"
+import Sight from "../assets/sight123.png"
 export const affinityData=[
     {
         id: "wie",
