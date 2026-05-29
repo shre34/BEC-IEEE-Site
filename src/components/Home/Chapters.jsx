@@ -5,6 +5,12 @@ import RAS from "./assets/RAS.png";
 import AESS from "./assets/AESS.png";
 import ComSoc from "./assets/ComSoc.png";
 import CIS from "./assets/CIS.png"
+import SIGHT from "./assets/SIGHT.png"
+import VTS from "./assets/VTS.png"
+import CASS from "./assets/CASS.png"
+import PELS from "./assets/PELS.png"
+import RLS from "./assets/RLS.png"
+import WIE from "./assets/WIE.png"
 import { TiArrowRight } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
 
@@ -54,11 +60,53 @@ const Chapters = () => {
             description:
                 "The IEEE Computational Intelligence Society focuses on biologically and linguistically motivated computational paradigms like neural networks, genetic algorithms, and fuzzy systems. It supports research, design, and application across various intelligent systems. The Society also sponsors key events like the bi-annual IEEE World Congress on Computational Intelligence.",
         },
+        {
+            id: 7,
+            name: "Reliability Society",
+            image: RLS,
+            description:
+                "The IEEE Reliability Society focuses on ensuring the dependability, safety, and performance of systems throughout their lifecycle. It supports research, design, and application in areas such as reliability engineering, system safety, maintainability, and quality assurance. The Society also sponsors conferences, publications, and technical activities that promote innovation and knowledge sharing in building robust and reliable systems.",
+        },
+        {
+            id: 8,
+            name: "Vehicular Technology Society",
+            image: VTS,
+            description:
+                "The IEEE Vehicular Technology Society focuses on advancing technologies related to wireless communications, transportation systems, and mobile services. It supports research, design, and application in areas such as connected vehicles, electric mobility, and intelligent transportation systems. The Society also sponsors conferences, publications, and technical activities that promote innovation and knowledge sharing in modern vehicular and communication technologies.",
+        },
+        {
+            id: 9,
+            name: "Circuits and Systems Society",
+            image: CASS,
+            description:
+                "The IEEE Circuits and Systems Society focuses on advancing the theory, design, and implementation of circuits and systems across a wide range of applications. It supports research, design, and application in areas such as analog and digital circuits, signal processing, and embedded systems. The Society also sponsors conferences, publications, and technical activities that promote innovation and knowledge sharing in modern electronic and system technologies.",
+        },
+        {
+            id: 10,
+            name: "Power Electronics Society",
+            image: PELS,
+            description:
+                "The IEEE Power Electronics Society focuses on advancing technologies related to power conversion, energy systems, and electronic control of electric power. It supports research, design, and application in areas such as renewable energy systems, electric drives, power converters, and efficient energy utilization. The Society also sponsors conferences, publications, and technical activities that promote innovation and knowledge sharing in modern power and energy technologies.",
+        },
+        {
+            id: 11,
+            name: "Women In Engineering",
+            image: WIE,
+            description:
+                "The IEEE Women in Engineering (WIE) Affinity Group focuses on promoting diversity, inclusion, and the advancement of women in engineering and technology. It supports initiatives, events, and programs that empower women through networking, mentorship, and professional development. The group also organizes workshops, talks, and activities that encourage participation, leadership, and knowledge sharing within the engineering community.",
+        },
+        {
+            id: 12,
+            name: "Special Interest Group on Humanitarian Technology",
+            image: SIGHT,
+            description:
+                "The IEEE Special Interest Group on Humanitarian Technology (SIGHT) focuses on applying technology for social good and sustainable development. It supports projects, research, and initiatives that address real-world challenges in areas such as healthcare, education, clean energy, and community development. The group also promotes collaboration, innovation, and knowledge sharing to create impactful solutions that benefit society and improve quality of life.",
+        },
     ];
 
     return (
         <div className="h-fit max-w-[90rem] lg:px-5 sm:px-8 px-5 mx-auto mt-24 pt-10">
-            <h1 className="text-center text-5xl font-bold">Our Societies</h1>
+            <h1 className="text-center text-5xl font-bold">Societies and Affinity Groups</h1>
             <div className="flex justify-center items-center mt-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {cardData.map((card) => (

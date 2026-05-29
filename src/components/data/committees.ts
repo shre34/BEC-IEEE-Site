@@ -1,23 +1,26 @@
-import Sambhav from "../assets/Sambhav.jpg"
-import Shravani from "../assets/shravani.jpg"
-import suhas from "../assets/Suhas.jpeg"
-import bharatesh from "../assets/Bharatesh.jpg"
-import vikas from "../assets/Vikas.jpg"
-import panchu from "../assets/Panchu.jpg"
-import praveen from "../assets/Alur.jpg"
-import apporva from "../assets/Apoorva.jpg"
-import AishwaryaH from "../assets/Aishwarya.jpg"
-import varun from "../assets/Varun.jpeg"
-import harshitha from "../assets/Harishtha.jpg"
-import sangamesh from "../assets/Sangamesh.jpg"
-import prerana from "../assets/prerana.jpg"
-import prajwal from "../assets/Prajwal.png"
-import anirudh from "../assets/Anirudh.jpg"
-import poorvi from "../assets/Poorvi.jpg"
-import channa from "../assets/channa.jpg"
-import sahitya from "../assets/sahitya.jpg"
-import omkar from "../assets/Omkar.jpg"
-import sidd from "../assets/sidd.jpeg"
+import Bharatesh from "../assets/Bharatesh_B.jpg"
+import Sangamesh from "../assets/Sangamesh_K.jpg"
+import Panchakshari from "../assets/Panchakshari_J.jpg"
+import Swayam from "../assets/Swayam_N.jpg"
+import Pooja from "../assets/Pooja.jpg"
+import Aditya from "../assets/Aditya_V.jpg"
+import Apoorva from "../assets/Apoorva_J.jpg"
+import Subramanya from "../assets/Subramanya_M.jpg"
+import Ashwini from "../assets/Ashwini_Y.jpg"
+import Vishwanath from "../assets/Vishwanath_D.jpg"
+import Kartik from "../assets/Kartik_E.jpg"
+import Shreya from "../assets/Shreya_H.jpg"
+import Sakshi from "../assets/Sakshi_D.jpg"
+import Shreyas from "../assets/Shreyas_R.jpg"
+import Sanju from "../assets/Sanju_H.jpg"
+import Bhagyashree from "../assets/Bhagyashree_K.jpg"
+import Omkar from "../assets/Omkar_S.jpg"
+import Soorabhi from "../assets/Soorabhi_A.jpg"
+import Channa from "../assets/Channamallikarjun.jpg"
+import Siddharudha from "../assets/Siddharudha_B.jpg"
+import Ankit from "../assets/Ankit.jpg"
+import Pranav from "../assets/Pranav_P.jpg"
+import Triveni from "../assets/Triveni_V.jpg"
 
 export interface Member {
   name: string;
@@ -38,52 +41,52 @@ export const committees: Committee[] = [
     name: "",
     members: [
       {
-        name: "Sambhav Oswal",
+        name: "Bharatesh Karabari",
         designation: "Chairperson",
-        image: `${Sambhav}`,
-        linkedin: "https://www.linkedin.com/in/sambhav-oswal-047778246/",
-        portfolio: "https://sambhavoswal23.wixsite.com/sambhav",
-        email: "sambhavoswal23@ieee.org",
-      },
-      {
-        name: "Shravani Uppar",
-        designation: "Vice Chairperson",
-        image: `${Shravani}`,
-        linkedin: "https://www.linkedin.com/in/shravani-uppar13/",
-        portfolio: "https://shravaniuppar.wixsite.com/shravani-uppar-portf",
-        email: "shravaniuppar@gmail.com",
-      },
-      {
-        name: "Suhas Kulkarni",
-        designation: "Treasurer",
-        image: `${suhas}`,
-        linkedin: "https://www.linkedin.com/in/suhas-kulkarni-a5006b245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        portfolio: "https://my.visme.co/view/dm48o9jg-my-portfolio",
-        email: "Suhaskulkarni123@ieee.org",
-      },
-      {
-        name: "Bharatesh B",
-        designation: "Secretary",
-        image: `${bharatesh}`,
+        image: `${Bharatesh}`,
         linkedin: "https://www.linkedin.com/in/bharatesh-b-10707a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         portfolio: "https://v0-bharatesh-portfolio-design.vercel.app/",
-        email: "bharteshbkarbhari@ieee.org",
+        email: "bharteshbkieee@gmail.com",
       },
       {
-        name: "Vikas Menasagi",
-        designation: "Joint Secretary",
-        image: `${vikas}`,
-        linkedin: "https://www.linkedin.com/in/vikas-menasagi-4ba074293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        portfolio: "https://lavender-darleen-48.tiiny.site/?mode=suggestions",
-        email: "vikasmenasagi0000@gmail.com",
+        name: "Sangamesh Kanabur ",
+        designation: "Vice Chairperson",
+        image: `${Sangamesh}`,
+        linkedin: "https://www.linkedin.com/in/channamallikarjun-c-yankanchi-a6a951307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://sangamesh-kanabur-gbw6iqm.gamma.site/",
+        email: "sanguk2005@ieee.org",
       },
       {
         name: "Panchakshari Jogi",
+        designation: "Treasurer",
+        image: `${Panchakshari}`,
+        linkedin: "https://www.linkedin.com/in/panchakshari-jogi-412451212",
+        portfolio: "https://panchakshari99.github.io/websiteportfolio/",
+        email: "panchu6486@gmail.com",
+      },
+      {
+        name: "Swayam Nandagaon",
+        designation: "Secretary",
+        image: `${Swayam}`,
+        linkedin: "https://www.linkedin.com/in/swayam-nandagaon-237616320?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        portfolio: "https://swayams-portfolio-website.b12sites.com/",
+        email: "swayamnandagaon7@gmail.com",
+      },
+      {
+        name: "Pooja Rathi ",
+        designation: "Joint Secretary",
+        image: `${Pooja}`,
+        linkedin: "https://www.linkedin.com/in/pooja-rathi-72679b332⁠",
+        portfolio: "https://pooja-ashok-rathi-portfolio.b12sites.com/",
+        email: "poojaarathi27@gmail.com",
+      },
+      {
+        name: "Aditya Vantagodi ",
         designation: "Joint Treasurer",
-        image: `${panchu}`,
-        linkedin: "https://www.linkedin.com/in/panchakshari-jogi-4a7636278/",
-        portfolio: "https://panchaksharijogi.vercel.app/",
-        email: "jogipanchakshari11@gmail.com",
+        image: `${Aditya}`,
+        linkedin: "https://www.linkedin.com/in/aditya-vantagodi-4b3871333?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        portfolio: "https://shreyahalingali5.github.io/Adityaieee/",
+        email: "adityavantagodi@gmail.com",
       },
     ],
   },
@@ -91,60 +94,76 @@ export const committees: Committee[] = [
     name: "Operating Committee",
     members: [
       {
-        name: "Alur Praveen",
+        name: "Apoorva Joshi ",
         designation: "Operating Committee Chair",
-        image: `${praveen}`,
-        linkedin: "https://www.linkedin.com/in/alur-praveen-607899269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        portfolio: "https://alur-praveen.b12sites.com/index",
-        email: "alurpraveen4217@ieee.org",
+        image: `${Apoorva}`,
+        linkedin: "https://www.linkedin.com/in/apoorva-kedarnath-joshi",
+        portfolio: "https://apoorvajoshi.vercel.app/",
+        email: "apoorvajoshika@ieee.org",
       },
       {
-        name: "Varun Naik",
+        name: "Pranav Pattan ",
+        designation: "Operating Committee Vice Chair",
+        image: `${Pranav}`,
+        linkedin: "https://www.linkedin.com/in/pranav-r-pattan-792082298?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        portfolio: "https://pranavpattan.vercel.app/",
+        email: "pranavpattan@ieee.org",
+      },
+      {
+        name: "Vishwanath Diggavi ",
         designation: "MDC Chair",
-        image: `${varun}`,
-        linkedin: "https://www.linkedin.com/in/varu19/",
-        portfolio: "https://v0-engineering-portfolio.vercel.app/",
-        email: "varu19@ieee.org",
+        image: `${Vishwanath}`,
+        linkedin: "/in/vishwanath-diggavi",
+        portfolio: "https://vishwa-2004.github.io/vishwanath-diggavi.github.io/",
+        email: "vishwanathdiggavi07@ieee.org",
       },
       {
-        name: "Aishwarya H",
+        name: "Ashwini Yakajanavar ",
         designation: "SAC Chair",
-        image: `${AishwaryaH}`,
-        linkedin: "https://www.linkedin.com/in/aishwarya-hipparagi-4ba74b277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        portfolio: "https://hishwarya-hipparagi.b12sites.com/index",
-        email: "aishuhipparagi@gmail.com",
+        image: `${Ashwini}`,
+        linkedin: "www.linkedin.com/in/ashwini-yakajanavar-642225390",
+        portfolio: "https://shre34.github.io/Ashwini/",
+        email: "ashwiniyakajanavar94@gmail.com",
       },
       {
-        name: "Prerana Bali",
+        name: "Shreya Halingali",
         designation: "Meeting Coordinator",
-        image: `${prerana}`,
-        linkedin: "https://www.linkedin.com/in/prerana-bali-604400261/",
-        portfolio: "https://v0-prerana-portfolio.vercel.app/",
-        email: "baliprerana@gmail.com",
+        image: `${Shreya}`,
+        linkedin: "https://www.linkedin.com/in/shreyahalingali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://shreyahalingali5.github.io/Shreya-portfolio/",
+        email: "shreyahalingali5@gmail.com",
       },
       {
-        name: "Apoorva Joshi",
+        name: "Kartik Emmi",
         designation: "Operating Committee Secretary",
-        image: `${apporva}`,
-        linkedin: "https://www.linkedin.com/in/apoorva-joshi-5a6599272/",
-        portfolio: "https://apoorvajoshiportfolio.netlify.app/",
-        email: "apoorvapatil1004@gmail.com",
+        image: `${Kartik}`,
+        linkedin: "https://www.linkedin.com/in/kartik-emmi-637a9532a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://kartik-emmi-portfolio.lovable.app",
+        email: "kmemmi05@gmail.com",
       },
       {
-        name: "Harshita Soudi",
-        designation: "Joint SAC",
-        image: `${harshitha}`,
-        linkedin: "https://www.linkedin.com/in/harshita-j-soudi-54a029294",
-        portfolio: "https://zesty-gumdrop-923dde.netlify.app",
-        email: "harshithasoudi7@gmail.com",
+        name: "Subramanya Math ",
+        designation: "Operating Committee Secretary",
+        image: `${Subramanya}`,
+        linkedin: "https://www.linkedin.com/in/subramanya-math-406142334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://subramnya.github.io/portfolio/",
+        email: "subramanyamath876@gmail.com",
       },
       {
-        name: "Sangamesh K",
+        name: "Sakshi Desai ",
         designation: "Membership Coordinator",
-        image: `${sangamesh}`,
-        linkedin: "https://www.linkedin.com/in/sangamesh-kanabur-770a95292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        portfolio: "https://sangamesh-kanabur-gbw6iqm.gamma.site/",
-        email: "sanguk2005@gmail.com",
+        image: `${Sakshi}`,
+        linkedin: "https://www.linkedin.com/in/sakshi-desai-024146334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://sakshi-1612.github.io/portfolio/",
+        email: "dsakshi1612@gmail.com",
+      },
+      {
+        name: "Triveni Venkatesh",
+        designation: "Membership Coordinator",
+        image: `${Triveni}`,
+        linkedin: "https://www.linkedin.com/in/trivenivenkatesh",
+        portfolio: "https://triveni6363.github.io/portfolio/",
+        email: "trivenivenkatesh55@gmail.com",
       }
       
     ],
@@ -153,28 +172,28 @@ export const committees: Committee[] = [
     name: "Web Team",
     members: [
       {
-        name: "Prajwal Shettar",
+        name: "Shreyas Rathod",
         designation: "Webmaster",
-        image: `${prajwal}`,
-        linkedin: "https://www.linkedin.com/in/prajwalshettar43",
-        portfolio: "https://portfolio-prajwal43.vercel.app/",
-        email: "prajwalshettar43@gmail.com",
+        image: `${Shreyas}`,
+        linkedin: "www.linkedin.com/in/shreyas-rathod-97b2a4303",
+        portfolio: "https://shre34.github.io/Shreyas/",
+        email: "shreyasrathod54@gmail.com",
       },
       {
-        name: "Anirudh Kulkarni",
-        designation: "Webmaster",
-        image: `${anirudh}`,
-        linkedin: "https://www.linkedin.com/in/anirudh-kulkarni-208096276/?msgControlName=view_message_button&msgConversationId=2-YmJmMDQ3MDMtMjgxNS00ODVhLWI5ZmMtYzE3MDgyZThmNTk3XzAxMw%3D%3D&msgOverlay=true",
-        portfolio: "https://ports-delta.vercel.app/",
-        email: "anirudhkulkarni733@gmail.com",
+        name: "Bhagyashri kanade",
+        designation: " Joint Webmaster",
+        image: `${Bhagyashree}`,
+        linkedin: "https://www.linkedin.com/in/bhagyashri-kanade-4462122aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://myrepository2.vercel.app",
+        email: "bhagyashree4876@gmail.com",
       },
       {
-        name: "Poorvi M",
+        name: "Sanju Hugar",
         designation: "Joint Webmaster",
-        image: `${poorvi}`,
-        linkedin: "https://www.linkedin.com/in/poorvi-muttinpendimath-b85869292",
-        portfolio: "https://silly-empanada-ef74ae.netlify.app",
-        email: "poorvimuttinpendimath@gmail.com",
+        image: `${Sanju}`,
+        linkedin: "https://www.linkedin.com/in/sanju-hugar-a01380337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://sanjuhugar123.github.io/portfolio/",
+        email: "sanjuhugar2003@gmail.com",
       },
     ],
   },
@@ -182,36 +201,44 @@ export const committees: Committee[] = [
     name: "Content Team",
     members: [
       {
-        name: "Channabasava B",
+        name: "Omkar Sanjeev ",
         designation: "Design Head",
-        image: `${channa}`,
-        linkedin: "https://www.linkedin.com/in/channabasava-v-ballolli-177a89277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        portfolio: "https://v0-fork-of-portfolio-website-mu.vercel.app/",
-        email: "channabasava.bollolli@ieee.org",
+        image: `${Omkar}`,
+        linkedin: "http://www.linkedin.com/in/omkarsanjeev",
+        portfolio: "https://vin-cenz01.github.io/Portfolio/",
+        email: "prooomkar1@ieee.org",
       },
       {
-        name: "Sahitya P",
-        designation: "Editorial Head",
-        image: `${sahitya}`,
-        linkedin: "https://www.linkedin.com/in/sahitya-p-870240273/",
-        portfolio: "https://sahityapapanal.vercel.app/",
-        email: "sahityapolicepatil0@gmail.com",
-      },
-      {
-        name: "Omkar Sanjeev",
+        name: "Channamallikarjun Y",
         designation: "Design Lead",
-        image: `${omkar}`,
-        linkedin: "https://www.linkedin.com/in/omkar-sanjeev-9582a5277/",
-        portfolio: "https://omkarsanjeev.netlify.app/",
-        email: "omkarsanjeev703@gmail.com",
+        image: `${Channa}`,
+        linkedin: "https://www.linkedin.com/in/channamallikarjun-c-yankanchi-a6a951307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        portfolio: "https://channamallikarjunportfolio.lovable.app",
+        email: "cmcyankanchi@gmail.com",
       },
       {
+        name: "Soorabhi Aragi",
+        designation: "Editorial Head",
+        image: `${Soorabhi}`,
+        linkedin: "https://www.linkedin.com/in/soorabhi-aragi-b99143334?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        portfolio: "https://soorabhi-aragi-portfolio.b12sites.com/",
+        email: "soorabhiaragi@gmail.com",
+      },
+       {
         name: "Siddharudha M B",
         designation: "Social Media Head",
-        image: `${sidd}`,
+        image: `${Siddharudha}`,
         linkedin: "https://www.linkedin.com/in/siddharudha-m-b-695075293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        portfolio: "https://sidportfolio.codedesign.app/",
-        email: "siddharudha.m.b@ieee.org",
+        portfolio: "https://sidvlogsin.github.io/sidvlogsportfolio/",
+        email: "siddubhairaji1123@gmail.com",
+      },
+      {
+        name: "Honawad Ankit",
+        designation: "Social Media Lead",
+        image: `${Ankit}`,
+        linkedin: "https://www.linkedin.com/in/honawad-ankit-4a4a4232a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        portfolio: "https://honawadankitportfolio.lovable.app",
+        email: "Sankit02429@gmail.com",
       },
     ],
   },

@@ -10,6 +10,7 @@ import ScrollToTop from "../components/NotFound/ScrollToTop";
 import CommitteePage from "../components/CommitteePage";
 import Achievements from "../components/Achievements/Achievements";
 import SocietyPage from "../components/Societies/society-page";
+import Chapters from "../components/Home/Chapters.jsx";
 const SiteRoutes = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const SiteRoutes = () => {
         {/* <Route path="/achievements" element={<Achievements />} /> */}
         <Route path="/achievements" element={<UnderConstruction />} />
         <Route path="/societies" element={<SocietyPage />} />
-        <Route path="/affinities" element={<UnderConstruction />} />
+        <Route path="/affinities" element={<SocietyPage type="affinities" />} />
         <Route path="/membership" element={<MembershipPage />} />
         <Route path="/photo-gallery" element={<UnderConstruction />} />
         <Route path="/joinIEEE" element={<UnderConstruction />} />

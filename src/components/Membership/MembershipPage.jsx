@@ -17,14 +17,14 @@ const membershipData = [
     { month: "Jul", members: 150, growth: 30 },
     { month: "Aug", members: 250, growth: 100 },
     { month: "Sep", members: 180, growth: 30 },
-    { month: "Oct", members: 425, growth: 223 },
+    { month: "Oct", members: 450, growth: 273 },
   ];
 
 // 2D Pulsating Graph Component
 const MemberStatsAndGraph = () => {
   const stats = [
     { title: "BEC-IEEE Members", value: "450+", icon: <Users className="w-8 h-8" /> },
-    { title: "Societies", value: "10", icon: <BookOpen className="w-8 h-8" /> },
+    { title: "Societies", value: "12", icon: <BookOpen className="w-8 h-8" /> },
     { title: "Annual Events", value: "25+", icon: <Calendar className="w-8 h-8" /> },
   ];
 

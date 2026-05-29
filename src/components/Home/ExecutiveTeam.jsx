@@ -5,17 +5,16 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
-import SG from "./assets/SG.png";
-import SGBg from "./assets/SGBg.png";
-import Sambhav from "./assets/Sambhav.png";
-import SambhavBg from "./assets/Sambhav.jpg";
-import ShravaniBg from "./assets/shravani.jpg"
-import Shravani from "./assets/shravani.png"
-import Bharatesh from "./assets/Bharatesh.png";
-import BharateshBg from "./assets/Bharatesh.jpg";
-import ChannabasavaBg from "./assets/Channabasava.jpg"
-import SuhasBg from "./assets/SuhasBg.png"
-import Suhas from "./assets/Suhas.png"
+import BC from "./assets/Branch_C.jpeg";
+import BCbg from "./assets/Branch_Cbg.png";
+import Bharatesh from "./assets/Bharatesh_B.jpg";
+import Bharateshbg from "./assets/Bharatesh_Bbg.png";
+import Sangamesh from "./assets/Sangamesh_K.jpg";
+import Sangameshbg from "./assets/Sangamesh_Kbg.png";
+import Swayam from "./assets/Swayam_N.jpg";
+import Swayambg from "./assets/Swayam_Nbg.png";
+import Panchakshari from "./assets/Panchakshari_J.jpg";
+import Panchaksharibg from "./assets/Panchakshari_Jbg.png";
 
 const ExecutiveTeam = () => {
   const [navigate, setNavigate] = useState(false);
@@ -51,7 +50,7 @@ const ExecutiveTeam = () => {
           t2.fromTo(
             [".mem1", ".title1", ".img1", ".mem2", ".title2", ".img2", ".mem3", ".title3", ".img3", ".mem4", ".title4", ".img4", ".mem5", ".title5", ".img5"],
             { y: 500, opacity: 0 },
-            { y: 0, opacity: 1, stagger: 0.2, duration: 0.5, ease: "power2.out" }
+            { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" }
           );
         },
       });
@@ -112,95 +111,90 @@ const ExecutiveTeam = () => {
                 Branch Counselor
               </h1>
             </div>
-            <img src={SG} className="img1 w-full mt-auto mb-8" alt="image" />
+            <img src={BCbg} className="img1 w-full mt-auto mb-8" alt="image" />
           </div>
 
           <div className="mem2 xl:w-[20%] lg:w-[25%] h-[85%] bg-[#CBD5D4] rounded-full flex flex-col items-center pt-8 -ml-4 overflow-hidden">
             <div className="title2 px-4">
               <h1 className="text-center text-2xl font-bold text-black">
-                Sambhav Oswal
+                Bharatesh K
               </h1>
               <h1 className="text-center text-lg text-black">Chairperson</h1>
             </div>
-            <img src={Sambhav} className="img2 w-full mt-auto" alt="image" />
+            <img src={Bharateshbg} className="img2 w-full mt-auto" alt="image" />
           </div>
 
           <div className="mem3 xl:w-[20%] lg:w-[25%] h-[80%] bg-[#E4DBD2] rounded-full flex flex-col items-center pt-8 -ml-4 overflow-hidden">
             <div className="title3 px-4">
               <h1 className="text-center text-2xl font-bold text-black">
-                Shravani Uppar
+                Sangamesh K
               </h1>
               <h1 className="text-center text-lg text-black">
                 Vice Chairperson
               </h1>
             </div>
-            <img src={Shravani} className="img3 w-full mt-auto" alt="image" />
+            <img src={Sangameshbg} className="img3 w-full mt-auto" alt="image" />
           </div>
 
           <div className="mem4 xl:w-[20%] lg:w-[27%] h-[90%] bg-[#FFC931] rounded-full flex flex-col items-center pt-8 -ml-4 overflow-hidden">
             <div className="title4 px-4 mt-4">
               <h1 className="text-center text-xl font-bold text-black">
-                Bharatesh B karbhari
+                Swayam N
               </h1>
               <h1 className="text-center text-lg text-black">Secretary</h1>
             </div>
-            <img src={Bharatesh} className="img4 w-full mt-auto" alt="image" />
+            <img src={Swayambg} className="img4 w-full mt-auto" alt="image" />
           </div>
 
           <div className="mem5 xl:w-[20%] hidden h-[70%] bg-[#FEB9CE] rounded-full xl:flex flex-col items-center pt-8 -ml-4 overflow-hidden">
             <div className="title5 px-4">
               <h1 className="text-center text-2xl font-bold text-black">
-                Suhas Kulkarni
+                Panchakshari J
               </h1>
               <h1 className="text-center text-lg text-black">Treasurer</h1>
             </div>
-            <img src={Suhas} className="img5 w-full mt-auto" alt="image" />
+            <img src={Panchaksharibg} className="img5 w-full mt-auto" alt="image" />
           </div>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:hidden gap-6 place-items-center mt-16">
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${SGBg})`, backgroundSize: 'cover'}}>
+          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${BCbg})`, backgroundSize: 'cover'}}>
             <div className="bg-black w-full text-center rounded-b-md">
               <h2 className="text-sm sm:text-base font-semibold">Dr. Sangamesh .Y. G</h2>
               <p className="text-sm">Branch Counselor</p>
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${SambhavBg})`, backgroundSize: 'cover'}}>
+          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${Bharateshbg})`, backgroundSize: 'cover'}}>
             <div className="bg-black w-full text-center rounded-b-md">
-              <h2 className="text-md font-semibold">Sambhav Oswal</h2>
+              <h2 className="text-md font-semibold">Bharatesh K</h2>
               <p className="text-sm">Chairperson</p>
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${ShravaniBg})`, backgroundSize: 'cover'}}>
+          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${Sangameshbg})`, backgroundSize: 'cover'}}>
             <div className="bg-black w-full text-center rounded-b-md">
-              <h2 className="text-md font-semibold">Shravani Uppar</h2>
+              <h2 className="text-md font-semibold">Sangamesh K</h2>
               <p className="text-sm">Vice Chairperson</p>
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${BharateshBg})`, backgroundSize: 'cover'}}>
+          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${Swayambg})`, backgroundSize: 'cover'}}>
             <div className="bg-black w-full text-center rounded-b-md">
-              <h2 className="text-md font-semibold">Bharatesh karbhari</h2>
+              <h2 className="text-md font-semibold">Swayam N</h2>
               <p className="text-sm">Secretary</p>
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${SuhasBg})`, backgroundSize: 'cover', backgroundPosition: 'right'}}>
+          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${Panchaksharibg})`, backgroundSize: 'cover', backgroundPosition: 'right'}}>
             <div className="bg-black w-full text-center rounded-b-md">
-              <h2 className="text-md font-semibold">Suhas Kulkarni</h2>
+              <h2 className="text-md font-semibold">Panchashari J</h2>
               <p className="text-sm">Treasurer</p>
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-md h-48 w-40 sm:h-64 sm:w-56 flex flex-col justify-end items-center border-4 border-zinc-700" style={{backgroundImage: `url(${ChannabasavaBg})`, backgroundSize: 'cover'}}>
-            <div className="bg-black w-full text-center rounded-b-md">
-              <h2 className="text-md font-semibold">Channabasava B</h2>
-              <p className="text-sm">Design head</p>
-            </div>
-          </div>
+
 
         </div>
 

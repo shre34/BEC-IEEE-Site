@@ -10,10 +10,12 @@ import ExecutiveCommittee from "./executive-committee"
 import ParticleBackground from "./particle-background"
 import Statistics from "./statistics"
 import { societiesData } from "../data/societies"
+import { affinityData } from "../data/affinity";
 import Footer from "../Home/Footer"
 
-export default function SocietyPage() {
-  const [selectedSociety, setSelectedSociety] = useState(societiesData[0])
+export default function SocietyPage({ type = "societies" }) {
+  const data = type === "affinities" ? affinityData : societiesData;
+  const [selectedSociety, setSelectedSociety] = useState(data[0])
   const [scrollY, setScrollY] = useState(0)
   const [activeSection, setActiveSection] = useState("vision")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -50,7 +52,7 @@ export default function SocietyPage() {
   }, [])
 
   const handleSocietyChange = (societyId) => {
-    const society = societiesData.find((s) => s.id === societyId)
+    const society = data.find((s) => s.id === societyId)
     if (society) {
       setSelectedSociety(society)
     }
@@ -90,8 +92,8 @@ export default function SocietyPage() {
           >
             <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-[rgb(52,4,91)] via-[rgb(52,4,91)] to-black opacity-75 blur-xl"></div>
             <h1 className="relative text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-100">
-              IEEE Societies
-            </h1>
+  {type === "affinities" ? "IEEE Affinity Groups" : "IEEE Societies"}
+</h1>
             <p className="relative text-xl md:text-2xl max-w-3xl mx-auto text-purple-100">
               Connecting professionals and advancing technology for the benefit of humanity
             </p>
@@ -137,10 +139,10 @@ export default function SocietyPage() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <SocietySelector
-              societies={societiesData}
-              selectedSociety={selectedSociety.id}
-              onSelect={handleSocietyChange}
-            />
+  societies={data}
+  selectedSociety={selectedSociety.id}
+  onSelect={handleSocietyChange}
+/>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-1">
